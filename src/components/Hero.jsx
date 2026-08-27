@@ -68,7 +68,7 @@ function Hero() {
           <div className="hero-ring"></div>
 
           <div className="hero-image-placeholder">
-            <img src="/src/assets/profile.jpeg" alt="Vidyasagar" />
+            <img src={profileImage} alt="Vidyasagar" />
           </div>
 
         </div>
