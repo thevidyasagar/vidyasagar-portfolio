@@ -8,7 +8,7 @@ function Projects() {
       description:
         "An intelligent career assistance platform designed to help users explore career paths, improve their skills, and make better career decisions.",
       technologies: ["Python", "AI", "Machine Learning", "React"],
-      github: "https://github.com/",
+      github: "https://github.com/thevidyasagar/CareerPilot-AI",
       demo: "#"
     },
     {
@@ -16,8 +16,8 @@ function Projects() {
       title: "Personal AI Assistant",
       description:
         "A personal AI assistant designed to interact with users, understand commands, and provide useful responses through intelligent automation.",
-      technologies: ["Python", "AI", "NLP", "Automation"],
-      github: "https://github.com/",
+      technologies: ["Python", "AI", "Machine Learing", "NLP", "Automation"],
+      github: "https://github.com/thevidyasagar/Sara-Assistant",
       demo: "#"
     },
     {
@@ -25,8 +25,8 @@ function Projects() {
       title: "E-Commerce Web Application",
       description:
         "A modern e-commerce application with product browsing, user interaction, and a scalable full-stack architecture.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
-      github: "https://github.com/",
+      technologies: ["React", "JavaScript", "Node.js", "Express", "MongoDB"],
+      github: "https://github.com/thevidyasagar/Crypto-Currency-Website",
       demo: "#"
     },
     {
@@ -34,8 +34,8 @@ function Projects() {
       title: "Book Store Web Application",
       description:
         "A full-stack book store application focused on clean UI, product management, backend APIs, and database integration.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
-      github: "https://github.com/",
+      technologies: ["React", "JavaScript", "CSS", "Node.js", "Express", "MongoDB"],
+      github: "https://github.com/thevidyasagar/book-store-webapp",
       demo: "#"
     }
   ];

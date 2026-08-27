@@ -23,10 +23,10 @@ function Footer() {
             </span>
 
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:vidyasagararya41@gmail.com"
               className="footer-email"
             >
-              your-email@example.com
+              vidyasagararya41@gmail.com
             </a>
           </div>
 

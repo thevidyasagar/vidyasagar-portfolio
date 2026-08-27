@@ -32,8 +32,9 @@ function Resume() {
           <div className="resume-line"></div>
 
           <p>
-            Available for opportunities in software development,
-            full-stack engineering and AI-focused roles.
+            Open to opportunities across AI engineering,
+            software development, and full-stack development,
+            with a focus on building intelligent and impactful solutions.
           </p>
         </div>
 

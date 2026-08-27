@@ -6,11 +6,11 @@ function Education() {
       number: "01",
       degree: "Bachelor of Technology",
       field: "Information Technology",
-      institution: "Your College / University",
-      location: "India",
-      period: "2021 — 2025",
+      institution: "Bansal Institute of Engineering and Technology Lucknow",
+      location: "Uttar Pradesh, India",
+      period: "2022 — 2026",
       description:
-        "Focused on software development, programming, databases, web technologies, and computer science fundamentals."
+        "Building a strong foundation in AI, software development, programming, web technologies, databases, and core computer science concepts.."
     }
   ];
 
