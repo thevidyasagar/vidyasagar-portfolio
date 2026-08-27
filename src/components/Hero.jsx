@@ -1,4 +1,5 @@
 import { ArrowDown, Download } from "lucide-react";
+import profileImage from "../assets/profile.jpeg";
 
 function Hero() {
   return (
