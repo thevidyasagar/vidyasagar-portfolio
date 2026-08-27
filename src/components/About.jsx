@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 function About() {
   return (
     <section className="about section" id="about">
@@ -8,7 +10,7 @@ function About() {
           <h2>Turning ideas into <span>real solutions.</span></h2>
         </div>
 
-        <div className="about-grid">
+        <Reveal className="about-grid">
 
           <div className="about-content">
 
@@ -73,7 +75,7 @@ function About() {
 
           </div>
 
-        </div>
+        </Reveal>
 
       </div>
     </section>

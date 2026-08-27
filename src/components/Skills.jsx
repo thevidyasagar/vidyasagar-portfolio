@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 function Skills() {
   const skillGroups = [
     {
@@ -39,7 +41,7 @@ function Skills() {
           </h2>
         </div>
 
-        <div className="skills-grid">
+        <Reveal className="skills-grid">
           {skillGroups.map((group, index) => (
             <div className="skill-card" key={group.title}>
 
@@ -61,7 +63,7 @@ function Skills() {
 
             </div>
           ))}
-        </div>
+        </Reveal>
 
       </div>
     </section>

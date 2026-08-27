@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 function Experience() {
   const experiences = [
     {
@@ -25,7 +27,7 @@ function Experience() {
           </h2>
         </div>
 
-        <div className="experience-list">
+        <Reveal className="experience-list">
 
           {experiences.map((experience) => (
             <article
@@ -70,7 +72,7 @@ function Experience() {
             </article>
           ))}
 
-        </div>
+        </Reveal>
 
       </div>
     </section>

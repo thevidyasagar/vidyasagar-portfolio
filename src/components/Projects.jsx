@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 function Projects() {
   const projects = [
     {
@@ -38,6 +40,30 @@ function Projects() {
     }
   ];
 
+  const containerVariants = {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: 0.15
+      }
+    }
+  };
+
+  const cardVariants = {
+    hidden: {
+      opacity: 0,
+      y: 40
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: [0.22, 1, 0.36, 1]
+      }
+    }
+  };
+
   return (
     <section className="projects section" id="projects">
       <div className="section-container">
@@ -51,10 +77,23 @@ function Projects() {
           </h2>
         </div>
 
-        <div className="projects-list">
+        <motion.div
+          className="projects-list"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{
+            once: true,
+            amount: 0.15
+          }}
+        >
 
           {projects.map((project) => (
-            <article className="project-card" key={project.number}>
+            <motion.article
+              className="project-card"
+              key={project.number}
+              variants={cardVariants}
+            >
 
               <div className="project-number">
                 {project.number}
@@ -75,6 +114,7 @@ function Projects() {
                 </div>
 
                 <div className="project-links">
+
                   <a
                     href={project.github}
                     target="_blank"
@@ -83,17 +123,22 @@ function Projects() {
                     GitHub ↗
                   </a>
 
-                  <a href={project.demo}>
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Live Demo ↗
                   </a>
+
                 </div>
 
               </div>
 
-            </article>
+            </motion.article>
           ))}
 
-        </div>
+        </motion.div>
 
       </div>
     </section>

@@ -22,19 +22,21 @@ function Navbar() {
         <div className="nav-actions">
 
           <a
-            href="https://github.com/"
+            href="https://github.com/thevidyasagar"
             target="_blank"
             rel="noreferrer"
-            className="social-text"
+            className="social-link"
+            aria-label="Github"
           >
             GitHub
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/vidyasagar-228109259/"
             target="_blank"
             rel="noreferrer"
-            className="social-text"
+            className="social-link"
+            aria-label="LinkedIn"
           >
             LinkedIn
           </a>

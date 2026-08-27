@@ -42,19 +42,21 @@ function Hero() {
           <div className="hero-socials">
 
             <a
-              href="https://github.com/"
+              href="https://github.com/theevidyasagar"
               target="_blank"
               rel="noreferrer"
+              aria-label="GitHub"
             >
-              GitHub
+              GH
             </a>
 
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/vidyasagar-228109259/"
               target="_blank"
               rel="noreferrer"
+              aria-label="LinkedIn"
             >
-              LinkedIn
+              in
             </a>
 
           </div>
@@ -66,7 +68,7 @@ function Hero() {
           <div className="hero-ring"></div>
 
           <div className="hero-image-placeholder">
-            <span>VS</span>
+            <img src="/src/assets/profile.jpeg" alt="Vidyasagar" />
           </div>
 
         </div>
